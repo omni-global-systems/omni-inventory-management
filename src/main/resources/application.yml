@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: INVENTORY-MANAGEMENT-SERVICE
+  datasource:
+    url: jdbc:postgresql://localhost:5432/omni
+    username: hiepnguyen   # Replace with your PostgreSQL username
+    password: password   # Replace with your PostgreSQL password
+    driver-class-name: org.postgresql.Driver
+    schema: inventory_management   # This defines the schema you're using in the omni database
+    hikari:
+      maximum-pool-size: 10  # Specify connection pool size
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    out-of-order: true
+logging:
+  level:
+    org.springframework.web: DEBUG
