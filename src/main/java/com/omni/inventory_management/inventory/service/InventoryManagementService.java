@@ -1,6 +1,6 @@
-package com.omni.inventory_management.service;
+package com.omni.inventory_management.inventory.service;
 
-import com.omni.inventory_management.entity.Product;
+import com.omni.inventory_management.product.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

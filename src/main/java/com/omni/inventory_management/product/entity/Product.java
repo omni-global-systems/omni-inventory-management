@@ -1,9 +1,8 @@
-package com.omni.inventory_management.entity;
+package com.omni.inventory_management.product.entity;
 
+import com.omni.inventory_management.supplier.entity.Supplier;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.UUID;
 
