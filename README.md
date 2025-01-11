@@ -86,8 +86,8 @@ The microservice exposes the following endpoints:
 
 ## Database Schema
 The database schema includes tables for products, suppliers
-![Inventory-Management](https://github.com/user-attachments/assets/0b8a0913-9009-4cc4-9fc1-3381b5073457)
 
+<img width="576" alt="Screenshot 2025-01-11 at 3 43 36 PM" src="https://github.com/user-attachments/assets/2994d52f-9bb4-47a5-808a-5ce645265196" />
 
 ### Database Migrations
 Flyway is used for handling database migrations. The migration scripts are located in the `src/main/resources/db/migration/` directory.
