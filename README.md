@@ -84,22 +84,8 @@ The microservice exposes the following endpoints:
 - **PUT** `/suppliers/{id}`: Update an existing supplier
 - **DELETE** `/suppliers/{id}`: Delete a supplier
 
-#### Orders
-- **GET** `/orders`: List all orders
-- **GET** `/orders/{id}`: Get details of a specific order
-- **POST** `/orders`: Place a new order
-- **PUT** `/orders/{id}`: Update the status of an existing order
-- **DELETE** `/orders/{id}`: Cancel an order
-
-#### Order Items
-- **GET** `/order-items`: List all order items
-- **GET** `/order-items/{id}`: Get details of a specific order item
-- **POST** `/order-items`: Create a new order item
-- **PUT** `/order-items/{id}`: Update an existing order item
-- **DELETE** `/order-items/{id}`: Delete an order item
-
 ## Database Schema
-The database schema includes tables for products, suppliers, orders, and order items. 
+The database schema includes tables for products, suppliers
 ![Inventory-Management](https://github.com/user-attachments/assets/0b8a0913-9009-4cc4-9fc1-3381b5073457)
 
 
